@@ -1,0 +1,46 @@
+
+> test-sequelize@1.0.0 start D:\MyDocs\workspace\test-sequelize
+> node index
+
+Thu, 02 Nov 2017 20:51:22 GMT sequelize deprecated String based operators are now deprecated. Please use Symbol based operators for better security, read more at http://docs.sequelizejs.com/manual/tutorial/querying.html#operators at node_modules\sequelize\lib\sequelize.js:236:13
+Executing (default): IF OBJECT_ID('[tests]', 'U') IS NOT NULL DROP TABLE [tests];
+Executing (default): IF OBJECT_ID('[tests]', 'U') IS NULL CREATE TABLE [tests] ([id] INTEGER NOT NULL IDENTITY(1,1) , [column0] NVARCHAR(255) NULL, [column1] NVARCHAR(255) NULL, [column2] NVARCHAR(255) NULL, [column3] NVARCHAR(255) NULL, [column4] NVARCHAR(255) NULL, [column5] NVARCHAR(255) NULL, [column6] NVARCHAR(255) NULL, [column7] NVARCHAR(255) NULL, [column8] NVARCHAR(255) NULL, [column9] NVARCHAR(255) NULL, [column10] NVARCHAR(255) NULL, [column11] NVARCHAR(255) NULL, [column12] NVARCHAR(255) NULL, [column13] NVARCHAR(255) NULL, [column14] NVARCHAR(255) NULL, [column15] NVARCHAR(255) NULL, [column16] NVARCHAR(255) NULL, [column17] NVARCHAR(255) NULL, [column18] NVARCHAR(255) NULL, [column19] NVARCHAR(255) NULL, [column20] NVARCHAR(255) NULL, [column21] NVARCHAR(255) NULL, [column22] NVARCHAR(255) NULL, [column23] NVARCHAR(255) NULL, [column24] NVARCHAR(255) NULL, [column25] NVARCHAR(255) NULL, [column26] NVARCHAR(255) NULL, [column27] NVARCHAR(255) NULL, [column28] NVARCHAR(255) NULL, [column29] NVARCHAR(255) NULL, [column30] NVARCHAR(255) NULL, [column31] NVARCHAR(255) NULL, [column32] NVARCHAR(255) NULL, [column33] NVARCHAR(255) NULL, [column34] NVARCHAR(255) NULL, [column35] NVARCHAR(255) NULL, [column36] NVARCHAR(255) NULL, [column37] NVARCHAR(255) NULL, [column38] NVARCHAR(255) NULL, [column39] NVARCHAR(255) NULL, [column40] NVARCHAR(255) NULL, [column41] NVARCHAR(255) NULL, [column42] NVARCHAR(255) NULL, [column43] NVARCHAR(255) NULL, [column44] NVARCHAR(255) NULL, [column45] NVARCHAR(255) NULL, [column46] NVARCHAR(255) NULL, [column47] NVARCHAR(255) NULL, [column48] NVARCHAR(255) NULL, [column49] NVARCHAR(255) NULL, [column50] NVARCHAR(255) NULL, [column51] NVARCHAR(255) NULL, [column52] NVARCHAR(255) NULL, [column53] NVARCHAR(255) NULL, [column54] NVARCHAR(255) NULL, [column55] NVARCHAR(255) NULL, [column56] NVARCHAR(255) NULL, [column57] NVARCHAR(255) NULL, [column58] NVARCHAR(255) NULL, [column59] NVARCHAR(255) NULL, [column60] NVARCHAR(255) NULL, [column61] NVARCHAR(255) NULL, [column62] NVARCHAR(255) NULL, [column63] NVARCHAR(255) NULL, [column64] NVARCHAR(255) NULL, [column65] NVARCHAR(255) NULL, [column66] NVARCHAR(255) NULL, [column67] NVARCHAR(255) NULL, [column68] NVARCHAR(255) NULL, [column69] NVARCHAR(255) NULL, [column70] NVARCHAR(255) NULL, [column71] NVARCHAR(255) NULL, [column72] NVARCHAR(255) NULL, [column73] NVARCHAR(255) NULL, [column74] NVARCHAR(255) NULL, [column75] NVARCHAR(255) NULL, [column76] NVARCHAR(255) NULL, [column77] NVARCHAR(255) NULL, [column78] NVARCHAR(255) NULL, [column79] NVARCHAR(255) NULL, [column80] NVARCHAR(255) NULL, [column81] NVARCHAR(255) NULL, [column82] NVARCHAR(255) NULL, [column83] NVARCHAR(255) NULL, [column84] NVARCHAR(255) NULL, [column85] NVARCHAR(255) NULL, [column86] NVARCHAR(255) NULL, [column87] NVARCHAR(255) NULL, [column88] NVARCHAR(255) NULL, [column89] NVARCHAR(255) NULL, [column90] NVARCHAR(255) NULL, [column91] NVARCHAR(255) NULL, [column92] NVARCHAR(255) NULL, [column93] NVARCHAR(255) NULL, [column94] NVARCHAR(255) NULL, [column95] NVARCHAR(255) NULL, [column96] NVARCHAR(255) NULL, [column97] NVARCHAR(255) NULL, [column98] NVARCHAR(255) NULL, [column99] NVARCHAR(255) NULL, [column100] NVARCHAR(255) NULL, [column101] NVARCHAR(255) NULL, [column102] NVARCHAR(255) NULL, [column103] NVARCHAR(255) NULL, [column104] NVARCHAR(255) NULL, [column105] NVARCHAR(255) NULL, [column106] NVARCHAR(255) NULL, [column107] NVARCHAR(255) NULL, [column108] NVARCHAR(255) NULL, [column109] NVARCHAR(255) NULL, [column110] NVARCHAR(255) NULL, [column111] NVARCHAR(255) NULL, [column112] NVARCHAR(255) NULL, [column113] NVARCHAR(255) NULL, [column114] NVARCHAR(255) NULL, [column115] NVARCHAR(255) NULL, [column116] NVARCHAR(255) NULL, [column117] NVARCHAR(255) NULL, [column118] NVARCHAR(255) NULL, [column119] NVARCHAR(255) NULL, [column120] NVARCHAR(255) NULL, [column121] NVARCHAR(255) NULL, [column122] NVARCHAR(255) NULL, [column123] NVARCHAR(255) NULL, [column124] NVARCHAR(255) NULL, [column125] NVARCHAR(255) NULL, [column126] NVARCHAR(255) NULL, [column127] NVARCHAR(255) NULL, [column128] NVARCHAR(255) NULL, [column129] NVARCHAR(255) NULL, [createdAt] DATETIMEOFFSET NOT NULL, [updatedAt] DATETIMEOFFSET NOT NULL, PRIMARY KEY ([id]));
+Executing (default): EXEC sys.sp_helpindex @objname = N'[tests]';
+Executing (default): INSERT INTO [tests] ([column0],[column1],[createdAt],[updatedAt]) OUTPUT INSERTED.* VALUES (N'John',N'Hancock',N'2017-11-02 20:51:22.584 +00:00',N'2017-11-02 20:51:22.584 +00:00');
+D:\MyDocs\workspace\test-sequelize\node_modules\tedious\lib\token\stream-parser.js:146
+        this.suspend(function () {
+             ^
+
+RangeError: Maximum call stack size exceeded
+    at Parser.awaitData (D:\MyDocs\workspace\test-sequelize\node_modules\tedious\lib\token\stream-parser.js:146:14)
+    at Parser.readUInt32LE (D:\MyDocs\workspace\test-sequelize\node_modules\tedious\lib\token\stream-parser.js:244:12)
+    at metadataParse (D:\MyDocs\workspace\test-sequelize\node_modules\tedious\lib\metadata-parser.js:138:76)
+    at readColumn (D:\MyDocs\workspace\test-sequelize\node_modules\tedious\lib\token\colmetadata-token-parser.js:53:3)
+    at next (D:\MyDocs\workspace\test-sequelize\node_modules\tedious\lib\token\colmetadata-token-parser.js:83:7)
+    at D:\MyDocs\workspace\test-sequelize\node_modules\tedious\lib\token\colmetadata-token-parser.js:87:9
+    at D:\MyDocs\workspace\test-sequelize\node_modules\tedious\lib\token\colmetadata-token-parser.js:56:9
+    at D:\MyDocs\workspace\test-sequelize\node_modules\tedious\lib\token\colmetadata-token-parser.js:47:7
+    at D:\MyDocs\workspace\test-sequelize\node_modules\tedious\lib\token\stream-parser.js:446:11
+    at D:\MyDocs\workspace\test-sequelize\node_modules\tedious\lib\token\stream-parser.js:433:9
+    at Parser.awaitData (D:\MyDocs\workspace\test-sequelize\node_modules\tedious\lib\token\stream-parser.js:144:9)
+    at Parser.readBuffer (D:\MyDocs\workspace\test-sequelize\node_modules\tedious\lib\token\stream-parser.js:430:12)
+    at D:\MyDocs\workspace\test-sequelize\node_modules\tedious\lib\token\stream-parser.js:445:17
+    at D:\MyDocs\workspace\test-sequelize\node_modules\tedious\lib\token\stream-parser.js:170:9
+    at Parser.awaitData (D:\MyDocs\workspace\test-sequelize\node_modules\tedious\lib\token\stream-parser.js:144:9)
+    at Parser.readUInt8 (D:\MyDocs\workspace\test-sequelize\node_modules\tedious\lib\token\stream-parser.js:167:12)
+    at Parser.readBVarChar (D:\MyDocs\workspace\test-sequelize\node_modules\tedious\lib\token\stream-parser.js:444:12)
+    at readColumnName (D:\MyDocs\workspace\test-sequelize\node_modules\tedious\lib\token\colmetadata-token-parser.js:39:10)
+    at D:\MyDocs\workspace\test-sequelize\node_modules\tedious\lib\token\colmetadata-token-parser.js:55:7
+    at readTableName (D:\MyDocs\workspace\test-sequelize\node_modules\tedious\lib\token\colmetadata-token-parser.js:34:5)
+    at D:\MyDocs\workspace\test-sequelize\node_modules\tedious\lib\token\colmetadata-token-parser.js:54:5
+    at D:\MyDocs\workspace\test-sequelize\node_modules\tedious\lib\metadata-parser.js:157:21
+npm ERR! code ELIFECYCLE
+npm ERR! errno 1
+npm ERR! test-sequelize@1.0.0 start: `node index`
+npm ERR! Exit status 1
+npm ERR! 
+npm ERR! Failed at the test-sequelize@1.0.0 start script.
+npm ERR! This is probably not a problem with npm. There is likely additional logging output above.
+
+npm ERR! A complete log of this run can be found in:
+npm ERR!     C:\Users\jim2\AppData\Roaming\npm-cache\_logs\2017-11-02T20_51_22_614Z-debug.log
